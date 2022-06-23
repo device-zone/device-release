@@ -1,0 +1,10 @@
+[${release.instance}-${release.repo.0}-${release.base}]
+name=${release.name.0}
+baseurl=${release.baseurl.0}
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-${release.instance}
+priority=10
+metadata_expire=1d
+sslcacert=${release.cacert}
+skip_if_unavailable=true
