@@ -45,13 +45,6 @@
   <inceptionYear>2016</inceptionYear>
 
   <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-webdav-jackrabbit</artifactId>
-        <version>3.5.1</version>
-      </extension>
-    </extensions>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
