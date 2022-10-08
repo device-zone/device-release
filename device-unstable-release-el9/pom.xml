@@ -123,7 +123,7 @@
               <sources>
                 <source>
                   <location>target/classes/release.repo</location>
-                  <destination>yum.repos.d/${release.instance}.repo</destination>
+		  <destination>yum.repos.d/${release.instance}-${release.env}.repo</destination>
                 </source>
               </sources>
             </mapping>
