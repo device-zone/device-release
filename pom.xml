@@ -8,7 +8,7 @@
 
   <artifactId>device-release</artifactId>
   <groupId>zone.device.platform</groupId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>pom</packaging>
   <name>device release package</name>
   <description>RPM Packaging for the device.zone ${release.distribution} dnf repository for ${release.env} environments</description>
@@ -20,9 +20,9 @@
   </organization>
 
   <scm>
-    <connection>scm:svn:https://github.com/device-zone/device-release/trunk</connection>
-    <developerConnection>scm:svn:https://github.com/device-zone/device-release/trunk</developerConnection>
-    <url>https://github.com/device-zone/device-release/trunk</url>
+    <connection>scm:svn:https://github.com/device-zone/device-release/tags/device-release-1.0.1</connection>
+    <developerConnection>scm:svn:https://github.com/device-zone/device-release/tags/device-release-1.0.1</developerConnection>
+    <url>https://github.com/device-zone/device-release/tags/device-release-1.0.1</url>
   </scm>
 
   <modules>

@@ -4,7 +4,7 @@
   <parent>
     <artifactId>device-release</artifactId>
     <groupId>zone.device.platform</groupId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
   </parent>
 
   <properties>
@@ -38,7 +38,7 @@
 
   <artifactId>device-testing-release</artifactId>
   <groupId>zone.device.platform.el9</groupId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>rpm</packaging>
   <name>device testing release packages for el9</name>
   <description>RPM Packaging for the device.zone ${release.distribution} testing dnf repository for ${release.env} environments</description>
